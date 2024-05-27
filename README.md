@@ -83,7 +83,58 @@
 | 2    | Process Hacker       | 查看进程的速度、内存、模块等，并对相关进程进行管理                        | [下载链接](https://processhacker.sourceforge.io/downloads.php) |
 | 3    | ProcessMonitor       | 高级监视工具，用于显示实时文件系统、注册表和进程/线程活动                  | [下载链接](https://download.sysinternals.com/files/ProcessMonitor.zip) |
 | 4    | PCHunter             | Windows系统信息查看软件，也是一个手工杀毒辅助软件                           | [下载链接](http://www.xuetr.com/download/PCHunter_free.zip) |
-| 5    | AutoRuns             | 检查开机自动加载的所有程序                                                 | [下载链接](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) |
-| 6    | ProcDump             | Windows反向工程命令行工具，用于将恶意软件内存组件转储回磁盘进行分析      | [下载链接](https://learn.microsoft.com/zh-cn/sysinternals/downloads/procdump) |
-| 7    | PowerTool            | 强大的进程管理器                                                             | [访问链接](http://powertool.s601.xrea.com/)   |
-| 8    | WinPrefetchView      | 小型进程管理实用程序
+```markdown
+### 进程分析工具 (续)
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 9    | Sysinternals 进程实用工具 | 包含多个进程分析小工具                                                       | [访问链接](https://learn.microsoft.com/zh-cn/sysinternals/downloads/process-utilities) |
+
+### Windows日志分析工具
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | 事件查看器           | 审核系统事件和存放系统、安全及应用程序日志等                               | Windows自带                                    |
+| 2    | Hayabusa             | Windows事件日志快速取证时间线生成器和威胁搜索工具                           | [下载链接](https://github.com/Yamato-Security/hayabusa/releases) |
+| 3    | sysmon               | Windows系统监视器，用于记录系统活动到事件日志                               | [下载链接](https://download.sysinternals.com/files/Sysmon.zip) |
+| 4    | FullEventLogView     | Windows事件日志查看工具，能够显示并查看所有的Windows事件日志的详细信息      | [访问链接](http://www.nirsoft.net/utils/full_event_log_view.html) |
+| 5    | Event Log Explorer   | 用于查看、监控和分析Windows操作系统的安全、系统、应用程序等日志中的事件    | [访问链接](https://www.eventlogxp.com/)      |
+| 6    | Log Parser           | 通用的强大工具，用于解析基于文本的数据和Windows操作系统日志等               | [下载链接](https://www.microsoft.com/en-us/download/confirmation.aspx?id=24659) |
+| 7    | APT-Hunter           | Windows事件日志威胁狩猎工具，用于检测隐藏在Windows事件日志中的APT活动     | [访问链接](https://github.com/ahmedkhlief/APT-Hunter) |
+
+### webshell查杀工具
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | shellpub             | webshell查杀工具                                                             | [访问链接](https://www.shellpub.com/)          |
+| 2    | D盾                  | 主动防御的IIS保护软件                                                        | [访问链接](http://www.d99net.net/)             |
+| 3    | kunwu                | 新一代webshell检测引擎                                                       | [访问链接](https://github.com/kunwu2023/kunwu) |
+| 4    | Web Shell 检测器    | 用于查找和识别php/cgi(perl)/asp/aspx shell的工具                            | [访问链接](https://github.com/emposha/PHP-Shell-Detector) |
+
+### 自动化检测工具
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | Gscan                | Linux主机自动全面化检测工具，实现主机侧Checklist的自动检测                   | [访问链接](https://github.com/grayddq/Gscan)   |
+| 2    | POFU                 | 主要用于主机信息提取、系统配置检测、网络进程检测等                           | 需要license，未找到可下载地址                    |
+| 3    | FireKylin            | 提供操作系统数据，用于分析研判安全事件                                      | [访问链接](https://github.com/MountCloud/FireKylin) |
+| 4    | LinuxCheck           | Linux应急处置、信息搜集、漏洞检测工具                                      | [访问链接](https://github.com/al0ne/LinuxCheck) |
+
+### 内存马查杀工具
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | DuckMemoryScan       | 寻找包括iis劫持、无文件木马、shellcode免杀后门等内存马的工具               | [访问链接](https://github.com/huoji120/DuckMemoryScan) |
+| 2    | java-memshell-scanner | 通过jsp脚本扫描并查杀各类中间件内存马                                       | [访问链接](https://github.com/c0ny1/java-memshell-scanner) |
+| 3    | copagent             | 一个java内存web shell提取工具                                               | [访问链接](https://github.com/LandGrey/copagent) |
+| 4    | aLIEz                | 用于杀内存马的工具                                                           | [访问链接](https://github.com/r00t4dm/aLIEz)   |
+
+### 蓝队分析研判工具箱
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | BlueTeamTools        | 解决蓝队分析工作中的一些痛点问题                                             | [访问链接](https://github.com/abc123info/BlueTeamTools) |
+
+### 浏览器日志分析工具
+| 序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | BrowsingHistoryView  | 查看已访问网站列表，包括URL、标题、访问时间、访问次数等                     | [访问链接](http://www.nirsoft.net/utils/browsing_history_view.html) |
+
+### 勒索病毒解密工具汇总
+序号 | 工具名               | 工具基本作用、功能                                                        | 工具下载地址                                    |
+|------|----------------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | Decryption-Tools     | 勒索病毒解密工具的汇总                                                      | [访问链接](https://github.com/jiansiting/Decryption-Tools/) |
